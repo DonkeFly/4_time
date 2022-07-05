@@ -15,7 +15,6 @@ htmlbody = requests.get(url)
 result = json.loads(htmlbody.text)['data']['currentPageSearchResults']
 len(result)  # 300课
 
-# 清洗数据
 title = []
 jump_url = []
 type = []
